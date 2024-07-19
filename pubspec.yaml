@@ -1,0 +1,85 @@
+name: wix_navigation
+description: "sezinsoft task"
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  
+  # Routing
+  auto_route: ^8.1.3
+  
+  # Lottie Files
+  lottie: ^2.2.0
+
+  # Text Style
+  google_fonts: ^4.0.3
+
+  # Permission
+  permission_handler: ^11.3.1
+
+  # Riverpod
+  flutter_riverpod: ^2.5.1
+
+  # Location
+  geolocator: ^12.0.0
+
+  # Map
+  flutter_map: ^7.0.2
+
+  # Coordinates
+  latlong2: ^0.9.1
+
+  # Model Freezed
+  freezed: ^2.5.2
+
+  # Map Helper
+  draggable_widget: ^2.0.0
+
+  # Notification
+  flutter_foreground_task: ^7.2.0
+
+  # Toast Message
+  fluttertoast: ^8.2.6
+
+  # Tel Launcher
+  url_launcher: ^6.3.0
+
+  # Route Stepper
+  another_stepper: ^1.2.2
+
+  # Model serializable
+  json_serializable: ^6.8.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  riverpod_generator: ^2.4.0
+  auto_route_generator: 8.0.0
+  freezed_annotation: ^2.4.3
+  json_annotation: ^4.9.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/jsons/
+    - assets/images/
